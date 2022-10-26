@@ -1,0 +1,92 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+#hero{
+    background: url("images/monastir.jpg");
+    background-size:cover;
+    padding: 50px 0 100px 0;
+    margin-bottom:0px ;
+    color:#ffff;
+    
+}
+h1{
+    background-color: #4CCFE6;
+    border-radius: 5px;
+    padding: 2px 3px 3px 2px;
+    
+}
+h2{
+
+    width: 330px;
+}
+.flx{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+.like-do{
+    margin: 5px 0px 30px 0px;
+}
+.line{
+    border-bottom: 3px solid white;
+}
+.monastir{
+ margin-top:0px;
+padding-top:10px;
+margin-bottom: 10px;
+background: linear-gradient(to left, #F6E4C0 20%, #EAE2B7 10%) right;
+background-size: 200% 100%;
+}
+
+.img-place{
+    border-radius: 50%;
+width: 100px;
+height: 99.34px;
+left: 83px;
+top: 114px;
+
+}
+.des-monastir{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.more{
+    margin: 20px auto 30px 0px;
+}
+.guide{
+    
+  margin:20px;
+  
+}
+.img-guide{
+    border-radius: 50px;
+}
+ .guide-total{
+         width: 400px;
+    margin: 0 auto;
+    padding: 20px 0 0 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #FFD60A;
+    color: #2b2839;
+    border-bottom: 6px solid #d8cefe;
+     border-radius: 10px
+ }
